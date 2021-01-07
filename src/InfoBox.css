@@ -1,0 +1,70 @@
+.infoBox {
+  flex: 1;
+  cursor: pointer;
+  box-shadow: -10px -0 40px -0px rgb(48, 0, 0);
+}
+
+.darkCard {
+  background: rgb(9, 24, 56); /*background */
+  color: black;
+}
+
+.infobox {
+  flex: 1;
+  cursor: pointer;
+}
+
+.infobox:not(:last-child) {
+  margin-right: 15px;
+}
+
+.infobox--red {
+  border-top: 10px solid #e1202b;
+}
+.infobox--green {
+  border-top: 10px solid #24eb64;
+}
+.infobox--black {
+  border-top: 10px solid #343a40;
+}
+.infocases--red {
+  color: #e1202b;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin: 10px 0;
+}
+.infocases--green {
+  color: #52b788;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin: 10px 0;
+}
+.infocases--black {
+  color: #343a40;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin: 10px 0;
+}
+
+.infobox__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  margin-top: 15px !important;
+}
+@media (max-width: 640px) {
+  .info-box {
+    flex: 1;
+  }
+  .infocases--red,
+  .infocases--green,
+  .infocases--black {
+    font-size: 14px;
+  }
+  .infobox--red,
+  .infobox--green,
+  .infobox--black {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+}

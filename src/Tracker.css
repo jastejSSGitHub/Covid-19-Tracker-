@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap");
+
+.Tracker {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.left__container {
+  flex: 0.9;
+}
+.info__container {
+  display: flex;
+  justify-content: space-around;
+}
+.form__dropdown {
+  background-color: rgb(255, 255, 255);
+}
+.card h3 {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 790px) {
+  .Tracker {
+    flex-direction: column;
+  }
+
+  .right__container {
+    margin-top: 20px;
+    justify-content: space-evenly;
+  }
+  .form__dropdown {
+    flex: 1;
+  }
+}

@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap");
+
+.Content {
+  margin: 50px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Content__text {
+  margin: 20px;
+  text-decoration: none;
+}
+
+.Content__Img {
+  display: flex;
+  justify-content: center;
+}
+.Content__Img img {
+  width: 1000px;
+  margin-top: 100px;
+}
+.Content h2 {
+  font-size: 24px;
+  letter-spacing: 3px;
+  color: #fff;
+}
+.Content h1 {
+  font-size: 72px;
+  font-weight: bold;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 15px;
+  color: #ffffff;
+}
+.Content p {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 50px 10px;
+  color: #fff;
+}
+.Content__more {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.Content__more h2 {
+  margin-left: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.Content__more button {
+  justify-content: center;
+  padding: 20px;
+  font-size: 14px;
+  border-radius: 50px;
+  outline-style: none;
+  border-color: #e17720;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+}
+.Content__more a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  align-content: center;
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  .Content {
+    margin: 30px 0px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .Content__text {
+    flex: 1;
+  }
+  .Content h1 {
+    font-size: 22px;
+  }
+  .Content h2 {
+    font-size: 20px;
+  }
+  .Content p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .Content__Img {
+    display: flex;
+    justify-content: center;
+    padding-top: 170px;
+    height: 850px;
+  }
+  .Content__Img img {
+    margin: 50px 10px 10px 10px;
+    width: 300px;
+    height: 200px;
+  }
+  .Content__more button {
+    padding: 10px;
+  }
+}
+
+.paddingleft {
+  padding-left: 20px;
+}
